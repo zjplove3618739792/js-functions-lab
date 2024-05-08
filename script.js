@@ -81,4 +81,20 @@ const maxOfThree = (numb_1,numb_2,numb_3) => {
 console.log('Exercise 8 Result:', maxOfThree(5, 10, 8));
 
 
-// const calculateTip()
+const calculateTip = (billAmount, tipPercentage) => {
+  return billAmount*tipPercentage/100
+}
+console.log('Exercise 9 Result:', calculateTip(50, 20));
+
+const convertTemperature = (temp, string) => {
+  if (string === 'C') {
+    return (temp * 9/5) + 32; 
+  } 
+  else { 
+    return (temp - 32) * 5/9; 
+  }
+} 
+console.log('Exercise 10 Result:', convertTemperature(32, "C"));
+
+
+// Done! so tired today!
