@@ -50,18 +50,19 @@ const reverseString = () => {
 console.log('Exercise 6 Result:', reverseString("rockstar"));
 
 
-// No.7 keep getting errors. Don't know how to fix it
 
-// const checkPalindrome = (string) => {
-//  for (let i = 0; i < string.length / 2; i++) {
-//     if (string[i] !== string[string.length - 1 - i]) {
-//       return false {
-//     else {
-//       return true
-//     }
-// }
 
-// // console.log('Exercise 7 Result:', checkPalindrome("radar"));
+const checkPalindrome = (string) => {
+ for (let i = 0; i < string.length / 2; i++) {
+    if (string[i] !== string[string.length - 1 - i]) {
+      return false }
+    else {
+      return true
+    }
+  }
+}
+
+console.log('Exercise 7 Result:', checkPalindrome("radar"));
 
 
 
@@ -80,4 +81,4 @@ const maxOfThree = (numb_1,numb_2,numb_3) => {
 console.log('Exercise 8 Result:', maxOfThree(5, 10, 8));
 
 
-const calculateTip()
+// const calculateTip()
